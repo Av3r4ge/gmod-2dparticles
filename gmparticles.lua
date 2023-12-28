@@ -42,7 +42,7 @@ function gmparticles.particle:setsize( size )
 end
 
 function gmparticles.particle:setspin( speed )
-	if speed then self.rotation = speed end 
+	if speed then self.spinspeed = speed end 
 end
 
 function gmparticles.particle:setrotation( angle )
